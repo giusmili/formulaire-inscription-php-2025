@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header('Location: display.php');
         exit;
     } else {
-        $error = 'Champs invalide!!';
+        $error = 'Champs vides!!';
     }
 }
 ?>

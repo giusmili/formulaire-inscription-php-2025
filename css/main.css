@@ -26,10 +26,17 @@ h1,h2,h3{
     margin: 0;
     font-weight: normal;
 }
+a{
+    text-decoration: none;
+}
+button{
+    border: 0;
+    padding: 0;
+}
 header h1{
     font-size: xx-large;
     text-align: center;
-    background-color: #007bff;
+    background-color: #6c63ff;
     color: #fff;
     line-height: 8rem;
     font-weight: bolder;
@@ -56,6 +63,10 @@ section ul li{
 section ul li:first-child{
     padding-top: 1rem;
 }
+section ul li:last-child{
+    padding-top: 3rem;
+    font-size: small;
+}
 form label {
     display: block;
     margin-bottom: 0.5rem;
@@ -73,7 +84,7 @@ form input:focus{
     outline: none;
     box-shadow: 0 0 2rem red;
 }
-form button {
+form button, .btn-primary {
     display: inline-block;
     background: #007BFF;
     color: #fff;
@@ -83,6 +94,7 @@ form button {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bolder;
+    width: max-content;
 }
 form button:hover {
     background: #0056b3;
@@ -95,6 +107,9 @@ form button:hover {
     max-width: 40rem;
     margin: 1rem auto;
    
+}
+.picture-message-little{
+    max-width: 15rem;
 }
 .picture-cover-primary img{
     display: inline-block;
