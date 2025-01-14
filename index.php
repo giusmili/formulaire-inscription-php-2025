@@ -9,18 +9,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Sessions & Cookies Example</title>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" href="./css/main.css">
-    <title>PHP Sessions & Cookies Example</title>
+    
 </head>
 <body>
     <?php
         include_once __DIR__ .'/routes/header.inc.php';
     ?>
+     
     <main>
+        <div class="picture-cover-primary" role="region">
+            <img src="./asset/cover.svg" alt="cover">
+        </div>
         <section>
             <h2><span aria-hidden="true">📝</span>
                 Inscription à notre service

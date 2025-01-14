@@ -91,7 +91,18 @@ form button:hover {
     color: rgb(194, 12, 12);
     margin-bottom: 1rem;
 }
+.picture-cover-primary{
+    max-width: 40rem;
+    margin: 1rem auto;
+   
+}
+.picture-cover-primary img{
+    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
 
+}
 footer *{
     text-align: center;
     font-size: small;
