@@ -25,7 +25,7 @@
                 <li><strong>Nom: </strong><?= $name ?></li>
                 <li><strong>Prénom: </strong><?= $surname ?></li>
                 <li><strong>Email: </strong><?= $email ?></li>
-                <li><a href="#" class="btn-primary">🔒️ Connectez-vous</a></li>
+                <li><a href="connect.php" class="btn-primary">🔒️ Connectez-vous</a></li>
             </ul>
            
         </section>

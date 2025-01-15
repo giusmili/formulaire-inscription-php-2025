@@ -28,11 +28,23 @@ h1,h2,h3{
 }
 a{
     text-decoration: none;
+    color: #222;
 }
 button{
     border: 0;
     padding: 0;
 }
+/* icones */
+
+.material-symbols-outlined {
+vertical-align: middle;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 header h1{
     font-size: xx-large;
     text-align: center;
@@ -99,6 +111,16 @@ form button, .btn-primary {
 form button:hover {
     background: #0056b3;
 }
+.msg-default{
+    text-align: center;
+}
+.msg-success{
+    color: rgb(6, 141, 6);
+}
+.msg-warning{
+    color: rgb(194, 12, 12);
+}
+
 .error {
     color: rgb(194, 12, 12);
     margin-bottom: 1rem;
