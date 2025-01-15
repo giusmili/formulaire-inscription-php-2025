@@ -18,9 +18,7 @@
     # Instance 
     $_connect = new Connect();
              
-            
-          
-            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
              
                 $email = $_POST['email'];
                 $password = $_POST['password'];
@@ -30,5 +28,5 @@
                     echo '<p class="msg-default msg-success">Authentification réussie!</p>';
                 } else {
                     echo '<p class="msg-default msg-warning">Email ou mot de passe incorrect.</p>';
-                }
             }
+        }

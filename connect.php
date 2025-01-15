@@ -1,9 +1,6 @@
 <?php
 session_start();
-
-    include_once __DIR__ .'/model/config.inc.php';
-    
-
+     include_once __DIR__ .'/model/config.inc.php';
 ?>
 
 <!DOCTYPE html>
