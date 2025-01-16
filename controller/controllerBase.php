@@ -1,6 +1,6 @@
 <?php
 
-session_start(); 
+session_start(); // session_destroy()
 
 include_once './model/config.inc.php';
 
